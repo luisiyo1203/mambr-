@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Gotham;
+    src: url('./font/Gotham-Font/Gotham-Font/GothamMedium_1.ttf');
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+  }
+
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  li a{
+    color: white;
+    text-decoration: none;
+  }
+  li a:hover{
+    color: white;
+    text-decoration: none;
+  }
+  .shfooter .collapse {
+    display: inherit;
+  }
+  @media (max-width:767px) {
+    .shfooter ul {
+      margin-bottom: 0;
+    }
+  
+    .shfooter .collapse {
+      display: none;
+    }
+  
+    .shfooter .collapse.show {
+      display: block;
+    }
+  
+    .shfooter .title .fa-angle-up,
+    .shfooter .title[aria-expanded=true] .fa-angle-down {
+      display: none;
+    }
+  
+    .shfooter .title[aria-expanded=true] .fa-angle-up {
+      display: block;
+    }
+  
+    .shfooter .navbar-toggler {
+      display: inline-block;
+      padding: 0;
+    }
+  
+  }
+  
+  /*RESIZESCREEN ANIMATION*/
+  .fa-angle-double-right {
+    animation: rightanime 1s linear infinite;
+  }
+  
+  .fa-angle-double-left {
+    animation: leftanime 1s linear infinite;
+  }
+  @keyframes rightanime {
+    50% {
+      transform: translateX(10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(10px);
+      opacity: 0;
+    }
+  }
+  @keyframes leftanime {
+    50% {
+      transform: translateX(-10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(-10px);
+      opacity: 0;
+    }
+  }
+  #Tl{
+    font-family: 'Gotham';
+  }
+  #NTil{
+    font-family: 'Gotham';
+    color: white;
+  }
+  #contents{
+      background-color: rgba(0, 0, 0, 0.600);
+      padding: 10px;
+      margin-top: 40%;
+      border-top-left-radius: 2rem;
+      border-top-right-radius: 2rem;
+  }
+.ParallaxVideo{ 
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px; 
+  }
+.ParallaxVideo video{ 
+      min-width: 100%;
+      position: fixed;
+      top:0;
+      z-index: -999;
+  }
+.ParallaxVideo h1 {
+  color: #fff;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20%;
+  }
+  #Stream{
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+      gap: 10px;
+      margin-bottom: 100px;
+  }
+  #Stream a{
+      color: white;
+      border-radius: 2rem;
+      font-size: 50px;
+  }
+  #Stream a img{
+    width: 150px;
+  }
+
+  @media (max-width:800px) {
+    #contents{
+    margin-top: 0%;
+}
+.ParallaxVideo h1 {
+color: #fff;
+font-size: 76px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+margin-top: 0%;
+}
+.ParallaxVideo{
+  display: none;
+}
+body{
+  background-image: url('https://i.scdn.co/image/ab6761610000e5ebf84af6f7d89c361f9f851241');
+  
+  background-position: center;
+  background-size: cover;
+}
+}

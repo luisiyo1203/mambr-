@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ParallaxVideo">
+        <video autoplay muted loop width="100%">
+        <source src="https://cdn.shopify.com/s/files/1/0575/2317/5576/files/B.E._FRAGRANCE_ONLINE_v07.4_2.mp4?v=1636518564" type="video/mp4">
+        </video>
+        <h1>Video Background</h1>
+      </div>
+      <style>
+          body{
+              margin: 0;
+              padding: 0;
+          }
+        .ParallaxVideo{ 
+            height: 300px;
+            padding-bottom: 50px;
+            padding-top: 50px; 
+            }
+        .ParallaxVideo video{ 
+                min-width: 100%;
+                position: fixed;
+                top:0;
+                z-index: -999;
+            }
+        .ParallaxVideo h1 {
+            color: #fff;
+            font-size: 76px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            }
+      </style>
+</body>
+</html>
